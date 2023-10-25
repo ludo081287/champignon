@@ -1,0 +1,302 @@
+.insta{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.telephone{
+    width: 360px;
+    margin-top: 5%;
+    display: flex;
+}
+
+.form-app{
+
+    margin-top: 5%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.form-insta{
+    border: solid rgba(184, 184, 184, 0.414);
+    border-width: 1px;
+    height: 66%;
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+h4{
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+
+.Instagram{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.nomou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+
+    
+}
+
+.nom{ 
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+.bouton{
+    margin-top: 2%;
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    height: 80%;
+    border-radius: 7px;
+    border-style: none;
+    background-color: rgb(132, 201, 236);
+    color: white;
+}
+
+h6{
+   color: gray;
+   font-size: 12px;
+
+}
+
+.ligneou{
+    margin-top: 2%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.ligne{
+    height: 10px;
+    width: 45%
+}
+
+.ligne2{
+    height: 10px;
+    width: 45%;
+}
+
+input{
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 3px;
+    border: solid 1px rgba(128, 128, 128, 0.441);
+    height: 35%;
+    background-color: rgba(128, 128, 128, 0.039);
+}
+
+.connecter{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logofb{
+    width: 20px;
+    margin-right: 5%;
+    
+}
+
+.oublié{
+    margin-top: 7%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.oublié1{
+    color: rgb(33, 33, 131);
+
+}
+
+.app{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 120%;
+
+}
+
+.titre1{
+ 
+    border: solid rgba(184, 184, 184, 0.414);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    height: 50px;
+    width: 100%;
+}
+
+.titre{
+   
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+
+.inscrivezvous{
+    color: rgba(0, 154, 244, 0.649);
+
+}
+
+.logoetlogo{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+ 
+}
+
+footer{
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 5%;
+    
+}
+
+.liensf{
+    
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 5%;
+}
+
+
+.metaconfidentialité{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.conditionsthreads{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.importationmetav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.françaismeta{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.lienfooter{
+    
+    font-size: 12px;
+    
+    
+}
+
+
+.liensf1{
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 300px;
+    height: 5%;
+}
+
+
+
+@media (max-width:882px){
+
+.telephone{
+    visibility: collapse;
+    
+}
+
+.liensf{
+   flex-direction: column;
+
+}
+
+.liensf1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.liensff{
+    display: flex;
+    flex-direction: column;
+}
+
+}

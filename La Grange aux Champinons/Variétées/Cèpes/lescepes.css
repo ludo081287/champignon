@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+html{
+    background-image: url(./cepe\ varietees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    h2{
+        color: #ffffff;
+        padding: 50px;
+        font-size: xx-large;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          
+        }
+    
+    p{
+        background-color: #ffab02;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: 'Permanent Marker', cursive;
+        text-align:center;
+        color: #ffffff;
+        font-size: x-large;
+        }

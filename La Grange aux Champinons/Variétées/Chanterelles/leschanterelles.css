@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+html{
+    background-image: url(./chanterelle\ varietees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    }
+
+    h2{
+        border: solid red;
+        background-color: #ffffff;
+        color: black;
+        padding: 50px;
+        font-size: xx-large;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          
+}
+
+.parallax{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./cepes.jpg);
+    height: 100vh;
+}
+
+.contenaire{
+    border: solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+    p{
+        
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: 'Permanent Marker', cursive;
+        text-align:center;
+        color: #ffffff;
+        font-size: x-large;
+        }

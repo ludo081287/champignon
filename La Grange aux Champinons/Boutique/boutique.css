@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+.menu {
+        display: flex;              /* Transformation en flexbox */
+        padding:0;                  /* Suppression des marges internes */
+        background-color: bisque;/* Ajout de la couleur d'arrière-plan */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        width: 83%;
+        border-radius: 10px;
+        list-style-type: none;
+        justify-content: center   /* Alignements des liens dans le menu */
+        }
+
+.menu a{
+    display: block;
+    min-width: 120px;
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #bc8b1a;    /* Couleur d'arrière-plan */
+    color: #ffffffba;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #ffffff;       /* Ajout d'une bordure */
+    border-radius: 5px;           /* Arrondis des bordures */
+    transition: all 1s ;          /* Ajout des effets de transition */
+    }
+
+.menu a:hover {
+    background-color: #ffab02;
+    color:#ffe943ff;
+    border-color: #ffe843;
+    }
+
+.parallaxe{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Images/foret.jpg);
+    height: 110vh;    
+ }
+
+.titredusite{
+        margin-top: 2%;
+        border: solid 1px ;
+        background-color: #888888e3;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+.contenaire-body{
+        background-color: rgba(255, 255, 255, 0.356);
+        width: 50%;
+        margin: auto;
+        border-radius: 20px;
+}
+   
+h1{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: -1px -1px, 1px 1px #888, -3px 0 8px #000;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    color: #ffab02;
+}
+
+.contenaire1{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.639);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+
+}
+
+.contenaire2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.639);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.morille-texte{
+
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.text-morille{
+
+    display: flex;
+    align-items: center ;
+    padding: 50px;
+}
+
+.image, .image2{
+    height: 200px;
+    width: 200px;
+    border-radius: 40%;
+}
+
+h2{
+        padding: 50px;
+        font-size: xx-large;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #ffffff;
+    }
+
+    .rejoigneznous{
+        padding: 20px;
+     }
+     
+     footer{
+        border-radius: 20px;
+        margin-top: 50px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffffe9;
+        position:absolute;
+        bottom:0;  /* on le colle en bas */
+        height:100px;
+    }
+     
+     .logofacebook{
+     
+         display: flex;
+
+         justify-content: center;
+     }
+     
+     .facebooklogo{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         width: 60px;
+         border-radius: 400px;
+     }
+    
+@media screen and (max-width: 480px){
+        footer{ 
+                display: flex;
+                align-items: center;
+            }
+    }
+
+
+
+
